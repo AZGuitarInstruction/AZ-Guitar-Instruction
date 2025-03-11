@@ -1,0 +1,152 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black; /* Dark background */
+    color: white; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #111; /* Dark background for navigation bar */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white; /* Default color for navigation links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add some padding for better hit area */
+    display: inline-block; /* Ensure the links behave as block elements for styling */
+    font-size: 1.2em; /* Slightly bigger font size */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all effects */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    color: #FFD700; /* Change color to gold on hover */
+    transform: scale(1.1); /* Slightly grow the link */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8); /* Add a subtle glowing effect */
+}
+
+/* Main Content Section */
+.main-content {
+    text-align: center;
+    padding: 60px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Style for the email link in contact page */
+.email-text-link {
+    color: #FFD700; /* Gold color */
+    text-decoration: none; /* Remove underline */
+}
+
+.email-text-link:hover {
+    color: #FFA500; /* Slightly darker gold on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #111; /* Dark background for footer */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+}
+
+/* Email Button Style */
+.email-button {
+    display: inline-block;
+    background-color: #FFD700; /* Gold background for button */
+    color: black; /* Black text for button */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.email-button:hover {
+    background-color: #FFA500; /* Slightly darker gold background on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav a {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    .main-content {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
+/* Glowing Effect Without Border */
+header img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px 5px rgba(255, 215, 0, 0.8); /* Glowing gold effect */
+    border-radius: 8px; /* Optional: rounded corners */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+header img:hover {
+    box-shadow: 0px 0px 30px 10px rgba(255, 99, 71, 0.8); /* Glowing red effect on hover */
+}
