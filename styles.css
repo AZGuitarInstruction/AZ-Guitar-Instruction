@@ -27,7 +27,7 @@ header img {
 
 /* Navigation Bar */
 nav {
-    background-color: #111; /* Dark background for navigation bar */
+    background-color: #222; /* Dark background for navigation bar */
     text-align: center;
     padding: 15px 0;
 }
@@ -61,7 +61,7 @@ nav a:hover {
 .main-content {
     text-align: center;
     padding: 60px 0;
-      background-color: #222222; 
+      background-color: #111; 
         color: white; /* Ensure text remains white */
 }
 
