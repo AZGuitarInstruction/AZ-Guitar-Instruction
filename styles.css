@@ -90,6 +90,8 @@ p {
 footer {
     background-color: #111; /* Dark background for footer */
     text-align: center;
+	font-family: 'Roboto', sans-serif;  /* Font type */
+    font-size: 12px;  /* Font size */
     padding: 20px;
     position: relative;
     bottom: 0;
