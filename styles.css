@@ -46,7 +46,7 @@ nav a {
     text-decoration: none; /* Remove underline */
     padding: 10px 20px; /* Add some padding for better hit area */
     display: inline-block; /* Ensure the links behave as block elements for styling */
-    font-size: 1.5em; /* Slightly bigger font size */
+    font-size: 1.8em; /* Slightly bigger font size */
     font-family: 'Lato', sans-serif; /* Set the font family to your desired style */
     transition: all 0.3s ease-in-out; /* Smooth transition for all effects */
 }
