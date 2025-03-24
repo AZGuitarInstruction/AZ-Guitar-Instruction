@@ -21,7 +21,7 @@ header {
 }
 
 header img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -145,7 +145,7 @@ footer p {
 }
 /* Glowing Effect Without Border */
 header img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     box-shadow: 0px 0px 20px 5px rgba(255, 215, 0, 0.8); /* Glowing gold effect */
     border-radius: 30px; /* Optional: rounded corners */
